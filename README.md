@@ -45,7 +45,7 @@ Architecture fullstack professionnelle combinant Django REST API, Node.js WebSoc
 ### 1. Cloner le projet
 
 ```bash
-git clone <votre-repo>
+git clone https://github.com/Rayan-Madi/Tout-Night-
 cd event-platform
 ```
 
@@ -66,7 +66,7 @@ DEBUG=True
 DB_ENGINE=django.db.backends.mysql
 DB_NAME=event_platform_db
 DB_USER=root
-DB_PASSWORD=votre_mot_de_passe
+DB_PASSWORD=(perso j'ai rien mis mais votre mdp)
 DB_HOST=127.0.0.1
 DB_PORT=3306
 REALTIME_SERVICE_URL=http://localhost:4000
@@ -91,7 +91,7 @@ PORT=4000
 JWT_SECRET=votre-cle-secrete
 DB_HOST=127.0.0.1
 DB_USER=root
-DB_PASSWORD=votre_mot_de_passe
+DB_PASSWORD=( j'ai rien mis mais ça peut varier en fonction de votre sql)
 DB_NAME=event_platform_db
 DB_PORT=3306
 ```
