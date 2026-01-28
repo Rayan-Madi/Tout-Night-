@@ -255,7 +255,7 @@ socket = io('http://localhost:4000', {
 
 ## 👨‍💻 Auteur
 
-Votre nom - Event Platform
+Rayan Madi - Tout Night
 
 ## 📄 Licence
 
