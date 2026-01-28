@@ -50,13 +50,12 @@ class EventDetailView(generics.RetrieveUpdateDestroyAPIView):
 
 
 class MyEventsView(generics.ListAPIView):
-    """Liste des événements créés par l'utilisateur connecté"""
-    
-    serializer_class = EventListSerializer
+    serializer_class = EventSerializer
     permission_classes = [IsAuthenticated]
-    
+
     def get_queryset(self):
-        return Event.objects.filter(organizer=self.request.user)
+        # Retourne seulement les événements créés par l'utilisateur
+        return Event.objects.filter(organizer=self.request.user).order_by('-created_at')
 
 
 @api_view(['PATCH'])

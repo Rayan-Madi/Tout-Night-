@@ -1,0 +1,282 @@
+.my-events-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px;
+  min-height: calc(100vh - 70px);
+}
+
+.my-events-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.my-events-header h1 {
+  font-size: 48px;
+  margin-bottom: 8px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -1px;
+}
+
+.my-events-header p {
+  font-size: 18px;
+  color: #a0a0a0;
+}
+
+.create-event-btn {
+  background: #ffffff;
+  color: #0a0a0a;
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.create-event-btn:hover {
+  background: #e0e0e0;
+  transform: scale(1.02);
+}
+
+.my-events-loading,
+.my-events-error {
+  text-align: center;
+  padding: 100px 20px;
+  color: #a0a0a0;
+  font-size: 18px;
+}
+
+.my-events-error h2 {
+  color: #ffffff;
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+
+.events-empty {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.empty-icon {
+  font-size: 80px;
+  margin-bottom: 24px;
+  opacity: 0.5;
+}
+
+.events-empty h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.events-empty p {
+  font-size: 18px;
+  color: #a0a0a0;
+  margin-bottom: 32px;
+}
+
+.create-first-btn {
+  display: inline-block;
+  background: #ffffff;
+  color: #0a0a0a;
+  padding: 14px 32px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 0.2s;
+}
+
+.create-first-btn:hover {
+  background: #e0e0e0;
+  transform: scale(1.02);
+}
+
+.my-events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 24px;
+}
+
+.my-event-card {
+  background: #141414;
+  border: 1px solid #1e1e1e;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.my-event-card:hover {
+  background: #1a1a1a;
+  border-color: #2a2a2a;
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+.my-event-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: #1e1e1e;
+}
+
+.my-event-content {
+  padding: 20px;
+}
+
+.my-event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  gap: 12px;
+}
+
+.my-event-header h3 {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.3;
+  flex: 1;
+}
+
+.event-status {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.status-published {
+  background: #1e3a1e;
+  color: #4ade80;
+}
+
+.status-draft {
+  background: #3a3a1e;
+  color: #fbbf24;
+}
+
+.status-cancelled {
+  background: #3a1e1e;
+  color: #f87171;
+}
+
+.status-completed {
+  background: #1e2a3a;
+  color: #60a5fa;
+}
+
+.my-event-info {
+  margin-bottom: 20px;
+}
+
+.my-event-info p {
+  font-size: 14px;
+  color: #a0a0a0;
+  margin-bottom: 6px;
+}
+
+.my-event-stats {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  background: #1e1e1e;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.stat {
+  flex: 1;
+  text-align: center;
+}
+
+.stat-value {
+  display: block;
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #606060;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.my-event-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.action-btn {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.view-btn {
+  background: #ffffff;
+  color: #0a0a0a;
+}
+
+.view-btn:hover {
+  background: #e0e0e0;
+}
+
+.edit-btn {
+  background: #252525;
+  color: #ffffff;
+  border: 1px solid #2a2a2a;
+}
+
+.edit-btn:hover {
+  background: #2a2a2a;
+  border-color: #404040;
+}
+
+.chat-btn {
+  background: #252525;
+  color: #ffffff;
+  border: 1px solid #2a2a2a;
+  max-width: 50px;
+}
+
+.chat-btn:hover {
+  background: #2a2a2a;
+  border-color: #404040;
+}
+
+@media (max-width: 768px) {
+  .my-events-container {
+    padding: 24px;
+  }
+
+  .my-events-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .my-events-header h1 {
+    font-size: 36px;
+  }
+
+  .my-events-grid {
+    grid-template-columns: 1fr;
+  }
+}
