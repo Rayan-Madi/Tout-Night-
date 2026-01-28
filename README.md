@@ -1,4 +1,4 @@
-# 🎉 Event Platform - Plateforme d'Événements en Temps Réel
+# 🎉 Tout Night - Plateforme d'Événements en Temps Réel
 
 Architecture fullstack professionnelle combinant Django REST API, Node.js WebSocket et React.
 
