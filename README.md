@@ -64,7 +64,7 @@ Créer `.env` dans `backend/` :
 SECRET_KEY=votre-cle-secrete
 DEBUG=True
 DB_ENGINE=django.db.backends.mysql
-DB_NAME=event_platform_db
+DB_NAME=tout_night_db
 DB_USER=root
 DB_PASSWORD=(perso j'ai rien mis mais votre mdp)
 DB_HOST=127.0.0.1
