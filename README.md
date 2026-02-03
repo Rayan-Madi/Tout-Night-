@@ -46,7 +46,7 @@ Architecture fullstack professionnelle combinant Django REST API, Node.js WebSoc
 
 ```bash
 git clone https://github.com/Rayan-Madi/Tout-Night-
-cd event-platform
+cd Tout-Night
 ```
 
 ### 2. Backend Django
@@ -99,7 +99,7 @@ DB_PORT=3306
 Créer les tables MySQL :
 
 ```bash
-mysql -u root -p event_platform_db < database.sql
+mysql -u root -p tout_night_db < database.sql
 ```
 
 ### 4. Frontend React
@@ -145,7 +145,7 @@ npm run dev
 ## 📁 Structure du projet
 
 ```
-event-platform/
+Tout-Night/
 ├── backend/                 # API Django
 │   ├── apps/
 │   │   ├── users/           # Gestion utilisateurs
