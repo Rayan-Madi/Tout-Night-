@@ -92,7 +92,7 @@ JWT_SECRET=votre-cle-secrete
 DB_HOST=127.0.0.1
 DB_USER=root
 DB_PASSWORD=( j'ai rien mis mais ça peut varier en fonction de votre sql)
-DB_NAME=event_platform_db
+DB_NAME=tout_night_db
 DB_PORT=3306
 ```
 
